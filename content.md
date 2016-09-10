@@ -5,9 +5,32 @@ class: center, middle, inverse
 ## using Jenkins and the Pipeline Plugins
 
 
-Steffen Gebert (@StGebert, first.last@typo3.org)
+Steffen Gebert ([@StGebert](https://twitter.com/StGebert), first.last@typo3.org)
+
+[TYPO3camp Munich, 2016](https://typo3camp-munich.de)
 
 Available at https://github.com/StephenKing/t3cm16-jenkins-pipeline
+
+
+---
+# Thanks
+
+### Organizers
+
+- [bgm](https://typo3.bgm-gmbh.de/), [pluswerk](http://pluswerk.ag/), [Portaltech Reply](https://portaltech.reply.eu/)
+
+### Platinum Sponsor
+
+- [jweiland.net](https://jweiland.net/), [punkt.de](https://punkt.de/), [HISCOX](https://www.hiscox.de/), [Mittwald](https://www.mittwald.de/)
+
+### Gold Sponsors
+
+- [eCentral](http://www.ecentral.de/), [in2code](https://www.in2code.de/), [Arrabiata](http://www.arrabiata.de/home/)
+
+
+### Silver Sponsors
+
+- [Spooner.Web](https://spooner-web.de/), [aimeos](https://aimeos.com/de/), [pixelink](https://www.pixel-ink.de/), [Sign & Sinn](https://signundsinn.de/), [SGALINSKI](https://www.sgalinski.de/), [datamints](http://www.datamints.com/), [mindscreen](http://www.mindscreen.de/)
 
 ---
 # /me
@@ -376,27 +399,6 @@ class: center, middle, inverse
 ![:scale 100%](img/blue-detail.png)
 
 ---
-# Thanks to Our T3CM16 Sponsors!
-
-### Platin
-
-- jweiland.net
-- punkt.de
-- HISCOX
-- Mittwald
-
-### Gold
-
-- e-central
-- in2code
-- Arrabiata
-
-
-### Silver
-
-- Spooner.Web, aimeos, pixelink, Sign&Sinn, SGALINSKI, datamints, mindscreen
-
----
 # Summary
 
 - Continuous Delivery streamlines and speeds up development
@@ -430,3 +432,4 @@ class: center, middle, inverse
 
 
 - TYPO3's Chef CI: https://chef-ci.typo3.org
+
