@@ -52,13 +52,13 @@ class: center, middle, inverse
 
 ![:scale 100%](img/pipeline.png)
 
-- Minimize execution time- Always aware of latest _stable_ release
+- Minimise execution time- Always aware of latest _stable_ release
 - Every checkin triggers pipeline execution
 
 ---
 # Feedback![:scale 90%](img/pipeline-feedback.png)
 - Feedback to the team in every stage
-  - Bring the pain forwad
+  - Bring the pain forward
   - Fail fast, fail often
   - Remember the Gamification talk!?
 
@@ -81,19 +81,24 @@ class: center, middle, inverse
   - Codeship
   - Visual Studio Team Services
 
+- Related (but more limited scope)
+  - TYPO3 Surf
+  - Capistrano
+   
 ???
 
-Welche Tools habt ihr verwwendet?
+Welche Tools habt ihr verwendet?
 
 ---
 # Why (I like) Jenkins
 
 - Established open source project
- 
 - On premise installation
-
 - Thousands of plugins
 
+![:scale 100%](img/jenkins.png)
+
+.footnote[(please excuse the brevity of this list)]
 
 ---
 # History of CI/CD with Jenkins 
@@ -218,7 +223,7 @@ node {
 - Allocate a node
   - `node`: Allocate a node to execute job
   - `node('php')`: Allocates a node (with PHP installed)
-- Model pipeline visualization `stage`
+- Model pipeline visualisation `stage`
 - Get your code: `checkout "https://github.com/.."`
 - Execute commands: `sh` (*nix), `bat` (Windows)  
 - File Handling: `readFile`, `writeFile`, `fileExists`
@@ -274,7 +279,7 @@ stage("run in docker") {
 ---
 # Multibranch & Organization Folders
 
-- Scans a complete GitHub/Bitbucket organization for `Jenkinsfile`
+- Scans a complete GitHub/Bitbucket organisation for `Jenkinsfile`
   - Triggered by Webhook and/or runs periodically
   - Automatically adds pipeline jobs per repo/branch/PR
 
@@ -283,7 +288,7 @@ stage("run in docker") {
 ---
 # Jenkins Global Library
 
-- Provdies shared functionality available for all jobs
+- Provides shared functionality available for all jobs
 - Stored on Jenkins master, available to all slaves
 - Available via Jenkins-integrated Git server
 
@@ -328,7 +333,7 @@ class: center, middle, inverse
 ---
 # Real-World Example (2)
 
-- Scans our GitHub organization _TYPO3-cookbooks_
+- Scans our GitHub organisation _TYPO3-cookbooks_
   - Automatically adds/removes pipelines for branches and pull requests
   - Triggered via Webhooks
   - Searches for `Jenkinsfile`
@@ -396,7 +401,7 @@ class: center, middle, inverse
 
 - Continuous Delivery streamlines and speeds up development
 
-- Jenkins pipeline suite modernizes its CI/CD capabilities
+- Jenkins pipeline suite modernises its CI/CD capabilities
   - CloudBees, Inc. is very actively pushing development
   - Some parts still pretty tricky
   - Many Jenkins plugins already compatible
