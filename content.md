@@ -414,3 +414,19 @@ class: center, middle, inverse
 - Automated pipeline creation based on GitHub/Bitbucket APIs
  
 - Blue Ocean refreshes Jenkins' UI
+
+---
+# Helpful Links
+
+- Tutorial: https://github.com/jenkinsci/pipeline-plugin/blob/master/TUTORIAL.md
+- Getting started with pipelines: https://jenkins.io/pipeline/getting-started-pipelines/
+- Step documentation: https://jenkins.io/doc/pipeline/steps/
+- Pipeline global library: https://github.com/jenkinsci/workflow-cps-global-lib-plugin/blob/master/README.md
+- Docker in Jenkins pipelines: https://jenkins.io/blog/2016/08/08/docker-pipeline-environments/
+- Notifications (Mail, Slack, etc.): https://jenkins.io/blog/2016/07/18/pipline-notifications/
+- Parallel execution: https://jenkins.io/blog/2016/06/16/parallel-test-executor-plugin/
+- Pipeline compatibility: https://jenkins.io/blog/2016/05/25/update-plugin-for-pipeline/
+- Extending pipeline DSL: https://jenkins.io/blog/2016/04/21/dsl-plugins/
+
+
+- TYPO3's Chef CI: https://chef-ci.typo3.org
