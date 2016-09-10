@@ -130,6 +130,11 @@ class: center, middle
 <!--    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script> -->
     <script src="remark-latest.min.js"></script>
     <script>
+remark.macros.scale = function (percentage) {
+  var url = this;
+  return '<img src="' + url + '" style="width: ' + percentage + '" />';
+};
+
     var slideshow = remark.create({
   sourceUrl: 'content.md'
 });
