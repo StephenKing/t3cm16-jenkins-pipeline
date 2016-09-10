@@ -42,19 +42,6 @@ Available at https://github.com/StephenKing/t3cm16-jenkins-pipeline
 class: center, middle, inverse
 # (Why) Continuous Delivery
 
-
-???
-
-- Wer weiß halbwegs Bescheid, was mit CD gemeint ist?
-
-- Rest Hand heben - Wer arbeitet in einem agilen Team?
-
-- Wer verwendet Jenkins?
-
-- Wer verwendet Pipelines in irgendeiner Form
-
-
-
 ---
 # Continuous Delivery
 
@@ -108,10 +95,6 @@ class: center, middle, inverse
   - TYPO3 Surf
   - Capistrano
    
-???
-
-Welche Tools habt ihr verwendet?
-
 ---
 # Why (I like) Jenkins
 
@@ -164,10 +147,6 @@ notifications:
   slack:
     ...
 ```
-
-???
-
-Wenn man manuell die Jobs für neue Projekte einrichten muss, macht man's ja eher nicht.
 
 ---
 # Previous Approaches in Jenkins
