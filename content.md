@@ -2,7 +2,7 @@ class: center, middle, inverse
 
 # Continuous Delivery
 
-## mit Jenkins und den Pipeline Plugins
+## using Jenkins and the Pipeline Plugins
 
 
 Steffen Gebert (@StGebert, first.last@typo3.org)

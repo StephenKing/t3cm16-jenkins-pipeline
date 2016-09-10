@@ -1,4 +1,4 @@
-# Continuous Delivery mit Jenkins und den Pipeline Plugins
+# Continuous Delivery using Jenkins and the Pipeline Plugins
 
 Presentation at the [TYPO3camp Munich 2016](http://www.typo3camp-munich.de).
 
